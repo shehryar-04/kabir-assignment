@@ -31,18 +31,6 @@
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
 <body class="is-boxed has-animations">
-          <script>
-  (function () {
-    if (!sessionStorage.getItem("ab_test")) {
-      const variant = Math.random() < 0.5 ? "A" : "B";
-      sessionStorage.setItem("ab_test", variant);
-    }
-
-    if (sessionStorage.getItem("ab_test") === "B") {
-      window.location.href = "index-b.html" + window.location.search;
-    }
-  })();
-</script>
     <div class="body-wrap">
         <header class="site-header">
             <div class="container">
@@ -63,7 +51,7 @@
                 <div class="container">
                     <div class="hero-inner">
 						<div class="hero-copy">
-	                        <h1 class="hero-title mt-0">Free Website Audit</h1>
+	                        <h1 class="hero-title mt-0">Don't know why your website is loosing Customers?</h1>
                             <p class="hero-paragraph">Get a free, no‑obligation website audit covering performance, SEO, security, and conversion optimization. Receive a clear prioritized action plan to improve traffic and sales.</p>
                             <div class="hero-cta"><a class="button button-primary" href="#">Request Free Audit</a><a class="button" href="#">Contact Us</a></div>
 						</div>
